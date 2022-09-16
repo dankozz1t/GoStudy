@@ -37,10 +37,10 @@ export default class Products extends Component {
   };
 
   render() {
-    const elements = this.state.products.map(product => (
+    const elements = this.state.products.map((product, index) => (
       <ListGroup.Item
         as="li"
-        key={product.id}
+        key={index}
         onClick={() => {
           this.handleClickModalOpen(product.id);
         }}
