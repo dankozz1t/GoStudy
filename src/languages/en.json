@@ -1,0 +1,5 @@
+{ 
+    "greeting": "Hello!",
+    "loading": "Loading data... (To long time)",
+    "info": "Information"
+}
